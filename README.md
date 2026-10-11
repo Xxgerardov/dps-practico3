@@ -47,3 +47,6 @@ También posibilita calificar la tarjeta(recurso) que haya añadido el docente a
 Los archivos de la carpeta services son los que hablan con la API, las screen le piden a los services que hablen con estas APIS
 
 
+
+video:
+https://drive.google.com/file/d/1YYAUuuRaqb-TnZeGdhBj858uS4KDXaTa/view?usp=drive_link
