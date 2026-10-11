@@ -108,7 +108,7 @@ export default function GestionRecursosScreen({ navigation }) {
 }
 
 const estilos = StyleSheet.create({
-  contenedor: { flex: 1, backgroundColor: "#fff" },
+ contenedor: { flex: 1 },
   titulo: { padding: 16, paddingBottom: 0, fontWeight: "bold" },
   lista: { padding: 16, paddingBottom: 100 },
   centro: { flex: 1, justifyContent: "center", alignItems: "center" },

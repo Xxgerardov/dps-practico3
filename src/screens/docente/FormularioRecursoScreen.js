@@ -33,6 +33,9 @@ export default function FormularioRecursoScreen({ route, navigation }) {
       imagen: imagen.trim(),
     };
 
+
+    
+
     setCargando(true);
     try {
       if (recursoEditar) {
@@ -51,6 +54,8 @@ export default function FormularioRecursoScreen({ route, navigation }) {
       setCargando(false);
     }
   };
+
+
 
   return (
     <ScrollView contentContainerStyle={estilos.contenido}>
@@ -133,7 +138,7 @@ export default function FormularioRecursoScreen({ route, navigation }) {
 }
 
 const estilos = StyleSheet.create({
-  contenido: { padding: 16, backgroundColor: "#fff", flexGrow: 1 },
+ contenido: { padding: 16, flexGrow: 1 },
   tipos: { flexDirection: "row", flexWrap: "wrap", gap: 8, marginTop: 8 },
   boton: { marginTop: 8 },
 });
