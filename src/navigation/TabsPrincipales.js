@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Icon } from "react-native-paper";
 import { useAuth } from "../context/AuthContext";
@@ -22,6 +22,18 @@ export default function TabsPrincipales() {
           ),
         }}
       />
+      {usuario.rol === "estudiante" && (
+        <Tab.Screen
+          name="Favoritos"
+          component={ListaRecursosScreen}
+          initialParams={{ soloFavoritos: true }}
+          options={{
+            tabBarIcon: ({ color, size }) => (
+              <Icon source="heart" size={size} color={color} />
+            ),
+          }}
+        />
+      )}
       {usuario.rol === "docente" && (
         <Tab.Screen
           name="Gestión"
