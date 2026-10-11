@@ -1,13 +1,13 @@
 
 
 **Este proyecto es:**
-Es una app móvil hecha con expo y con react native que sirve como un espacio de aprendizaje en donde se tienen distintos docentes con capacidad de poder subir espacios como cursos, libros, videos y para que los alumnos tengan un espacio para aprender con posibilidad de guardar e dar su opinión acerca de los recursos de aprendizaje ayudando asi a dar una idea a los demás usuarios de que tan bueno mediante el promedio de estrellas, también pueden buscar e filtrar cursos a su antojo.
+Es una app móvil hecha con expo y con react native que sirve como un espacio de aprendizaje en donde se tienen distintos docentes con capacidad de poder subir espacios como cursos, libros, videos, articulos y para que los alumnos tengan un espacio para aprender con posibilidad de guardar e dar su opinión acerca de los recursos de aprendizaje ayudando asi a dar una idea a los demás usuarios de que tan bueno mediante el promedio de estrellas, también pueden buscar e filtrar cursos a su antojo.
 
 
 
 **Como funciona el proyecto?**
 
-** 1) se comienza por el index.ts es el primero de todos y este le dice a expo que abra la app y se dirija a app.js
+** 1) se comienza por el index.js es el primero de todos y este le dice a expo que abra la app y se dirija a app.js
 
 
 ** 2) sigue app.js: arranca 3 acciones que son: 
@@ -21,7 +21,7 @@ El tema del color(será azul oscuro), ejecuta authcontext y la navegación esta 
 
 Saltaran 2 pantallas(opciones): 
 
-1ro loginscreen: la persona escribe su email con su contraseña y se compararan con los datos de mock.io y si coincide dará acceso y si no coincide saltaran advertencias diciendo que el lo que pudo salir mal.
+1ro loginscreen: la persona escribe su email con su contraseña y se compararan con los datos de mockapi.io y si coincide dará acceso y si no coincide saltaran advertencias diciendo que el lo que pudo salir mal.
 
 2do registroscreen: este apartado saltara si se le da a la opción crear cuenta o registrarse dentro de la pagina loginscreen y registroscreen servirá para crear una cuenta ósea registrarse como lo dice su nombre.
 
@@ -31,7 +31,7 @@ Saltaran 2 pantallas(opciones):
 Se abrirá tabsprincipales esta es la barra de opciones que aparece abajo y este tab ira cambiando las opciones que posee según el rol del usuario que inicio sesión.
 
 
- ** 6) listarecursosscreen  pide los recursos a las API y los muestra en un espacio tipo tarjeta y luego estas tarjetas se pueden buscar en el buscador ya sea por su nombre, id o categoría dependiendo de la opción de búsqueda seleccionada, también se pueden ordenar de manera       “A a Z”, “Z a A” o id. 
+ ** 6) listarecursosscreen  pide los recursos a las API y los muestra en un espacio tipo tarjeta y luego estas tarjetas se pueden buscar en el buscador ya sea por su nombre, id o categoría dependiendo de la opción de búsqueda seleccionada, también se pueden ordenar de manera       “A - Z”, “Z - A” o id. 
 
 También se posibilita el poder agregar la tarjeta que se desee a favoritas guardando determinada tarjeta(recurso) para el usuario que la haya añadido 
 
